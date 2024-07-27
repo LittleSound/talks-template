@@ -1,4 +1,4 @@
-# Talks of Template</sup>
+# Talks Template like [antfu/talks](https://github.com/antfu/talks)
 
 Slides & code for my talks, using [Slidev](https://github.com/slidevjs/slidev)!
 
