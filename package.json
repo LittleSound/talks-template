@@ -4,10 +4,12 @@
   "private": true,
   "packageManager": "pnpm@9.5.0",
   "scripts": {
-    "build": "rimraf dist && pnpm -r run build",
-    "dev": "esno scripts/picker.ts dev --open",
+    "dev": "pnpm run picker dev --open",
+    "build": "rimraf dist && pnpm run picker build",
+    "build:all": "rimraf dist && pnpm -r run build",
     "typecheck": "vue-tsc --noEmit",
     "lint": "eslint .",
+    "picker": "PICKER_EDITOR=cursor esno scripts/picker.ts",
     "update": "esno scripts/redirects.ts",
     "prepare": "git submodule update --init --recursive"
   },
