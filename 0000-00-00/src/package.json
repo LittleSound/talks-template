@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "slidev",
     "build": "slidev build --out ../dist",
-    "export": "slidev export --per-slide --dark --output ../slide.pdf"
+    "export": "slidev export --per-slide --dark --output ../slides.pdf"
   },
   "dependencies": {
     "@slidev/theme-seriph": "^0.25.0"
