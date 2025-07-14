@@ -10,7 +10,7 @@
     "export": "pnpm run picker export",
     "typecheck": "vue-tsc --noEmit",
     "lint": "eslint .",
-    "picker": "PICKER_EDITOR=cursor esno scripts/picker.ts",
+    "picker": "PICKER_EDITOR=code esno scripts/picker.ts",
     "prepare": "git submodule update --init --recursive"
   },
   "devDependencies": {
