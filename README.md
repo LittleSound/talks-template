@@ -32,7 +32,6 @@ pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 When you use this template, try follow the checklist to update your info properly
 
 - [ ] Change the author name in `LICENSE`
-- [ ] Change the title in `App.vue`
 - [ ] Remove the `.github` folder which contains the funding info
 - [ ] Use `README-template.md` to replace `README.md`
 - [ ] Copy the `0000-00-00` folder and start creating your actual talk
