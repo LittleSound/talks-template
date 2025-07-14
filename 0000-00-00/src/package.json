@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --out ../../dist/0000-00-00/src",
-    "export": "slidev export --per-slide --output ../0000-00-00.pdf"
+    "build": "slidev build --out ../dist",
+    "export": "slidev export --per-slide --dark --output ../slide.pdf"
   },
   "dependencies": {
     "@slidev/theme-seriph": "^0.25.0"
